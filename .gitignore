@@ -1,0 +1,12 @@
+
+\.metadata/
+
+\.sonarlint/
+
+RemoteSystemsTempFiles/
+
+adventofcode/\.settings/
+
+adventofcode/\.classpath
+
+adventofcode/\.project
