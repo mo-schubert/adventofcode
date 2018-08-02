@@ -9,7 +9,9 @@ Currently I solved the following days:
 * Day 1
 * Day 2
 * Day 3
+* Day 4
 
+In the following you can find some informations about the algorithms. I just described everything that I consider as good to know.
 
 Algorithm for day 3
 -------------------
@@ -32,3 +34,8 @@ For each number we need at least the number of circles minus 1 steps (minus 1 be
 Furthermore, we need to calculate the number of steps in the right direction. Therefore, I splitted the matrix into 4 quadrants. If you start at the starting point (number 1) and look to the right you find the numbers 2, 11, 28, ... this numeric row is the result of the highest number of the inner circle plus the number of the current cirlce. This can similar applied to the other directions. For example, if you start at the starting point (number 1) and you go up, this row results the highest number of the inner circle plus the number of the current cirlce times 2.
 
 In the end the number of steps is the number of circles (either up, down, left or right) plus the number of steps in the right direction which is the difference between the number of the quadrant and the input number.
+
+Algorithm for day 4
+-------------------
+
+For the algorithm for the challenge of day 4 I used the Trie datastructure. A Trie datastructure is normally used in the information retrieval. In my case I am using it to store and search for the elements of the phrase.
