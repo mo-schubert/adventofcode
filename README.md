@@ -15,8 +15,9 @@ Algorithm for day 3
 
 For the algorithm of day 2 I first calculated the circle the number is in. If you take a closer look at the matrix you can see that each circle ends with the square of an odd number (1 => 1, 3 => 9, 5 => 25, 7 => 49 and so on).
 
-37  36  35  34  33  32  31
-38  17  16  15  14  13  30
+| 37 | 36 | 35 | 34 | 33 | 32 | 31 |
+| 38 | 17 | 16 | 15 | 14 | 13 | 30 |
+
 39  18   5   4   3  12  29
 40  19   6   1   2  11  28
 41  20   7   8   9  10  27
