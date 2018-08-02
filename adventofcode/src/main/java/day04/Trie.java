@@ -26,8 +26,8 @@ public class Trie {
 
 		TrieNode() {
 			isEndOfWord = false;
-			for (int i = 0; i < ALPHABET_SIZE; i++)
-				children[i] = null;
+			for (int index = 0; index < ALPHABET_SIZE; index++)
+				children[index] = null;
 		}
 	};
 
