@@ -10,6 +10,7 @@ Currently I solved the following days:
 * Day 2
 * Day 3
 * Day 4
+* Day 5
 
 In the following you can find some informations about the algorithms. I just described everything that I consider as good to know.
 
